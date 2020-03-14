@@ -32,17 +32,18 @@
 
 ##### About
 - [x] Combine About and Components pages
-- [ ] Fill out About Section Text
+- [x] Fill out About Section Text
 - [x] Extent section to fill screen
 - [x] Fix linear-gradient to bottom
 - [x] Add Components
 - [x] Align and justify center icons
 - [x] Add Links to resources
 - [x] Add weather background to components
+- [x] Add previous code section w/live view and code
 
 ##### Help
 - [x] Add PostMan/Swagger API Docs
-- [ ] Refactor Help/Api to use Swagger Docs 
+- [x] Refactor Help/Api to use Swagger Docs 
 
 ##### Footer
 - [x] Remopve Contact Grid
