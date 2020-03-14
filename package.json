@@ -1,0 +1,20 @@
+{
+  "name": "weather-app-website",
+  "version": "2.0.0",
+  "description": "Weather App Website",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon --watch templates src/app.js - e js, hbs, html"
+  },
+  "author": "Justin Adams",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.3",
+    "hbs": "^4.1.0",
+    "request": "^2.88.2",
+    "swagger-ui-express": "^4.1.3"
+  }
+}

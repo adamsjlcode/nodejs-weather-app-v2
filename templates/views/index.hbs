@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <link rel="icon" href="/img/weather.png">
+    {{>local_css}}
+</head>
+<body>
+    {{>nav}}
+    {{>mashead}}
+    <section id="search" class="search-section">
+        <div class="container">
+            <div class=" ai-3 row">
+                <div class="col-md-10 col-lg-8 mx-auto text-center">
+                    <i class="fad fa-house-day fa-3x mb-2 text-white"></i>
+                    <h2 class="text-white mb-5">Enter address to display weather forecast</h2>
+                    <form class="form-inline d-flex">
+                        <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" placeholder="Enter address...">
+                        <button type="submit" class="btn btn-primary mx-auto">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="forecast" class="container-fluid bg-black">
+        <div class="container">
+            <div class="row text-white align-content-center justify-content-center" style="height: 20vh">
+                <div class="col-12">
+                    <p id="error" class="text-center"></p>
+                    <!--                <div class="icon" id=forecast_current_icon></div>-->
+                    <h1 class="display-4" id="forecast_current_loc"></h1>
+                    <h2 class="display-1" id=forecast_current_temp></h2>
+                    <p id="forecast_current_range"></p>
+                    <h2 id=forecast_current_summary></h2>
+                    <p id=forecast_current_precipIntensity></p>
+                    <p id=forecast_current_dewPoint></p>
+                    <p id=forecast_current_humidity></p>
+                    <p id=forecast_current_pressure></p>
+                    <p id=forecast_current_windSpeed></p>
+                    <p id=forecast_current_windGust></p>
+                    <p id=forecast_current_uvIndex></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{>footer}}
+</body>
+{{>local_js}}
+</html>
